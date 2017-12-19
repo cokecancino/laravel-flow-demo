@@ -1,0 +1,3 @@
+En esta carpeta debe dejar la llave privada "comercio.pem"
+
+Esta llave deberá bajarla desde Flow

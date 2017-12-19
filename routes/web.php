@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::post('orden', 'FlowController@orden')->name('orden');
+
+Route::post('flow/exito', 'FlowController@exito')->name('flow.exito');
+Route::post('flow/fracaso', 'FlowController@fracaso')->name('flow.fracaso');
+Route::post('flow/confirmacion', 'FlowController@confirmacion')->name('flow.confirmacion');

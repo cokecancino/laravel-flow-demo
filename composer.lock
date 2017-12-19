@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ab1879c4c609ae699bfc4b20225694f",
+    "content-hash": "2050182bbd2808f64df2db0cf6446ff2",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -127,6 +127,54 @@
                 }
             ],
             "time": "2016-06-13T19:28:20+00:00"
+        },
+        {
+            "name": "cokecancino/laravel-flow",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cokecancino/laravel-flow.git",
+                "reference": "62c727b9f7c473087c2d5bdfaef8b725d6d879f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cokecancino/laravel-flow/zipball/62c727b9f7c473087c2d5bdfaef8b725d6d879f1",
+                "reference": "62c727b9f7c473087c2d5bdfaef8b725d6d879f1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CokeCancino\\LaravelFlow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jorge Cancino Flores",
+                    "email": "jorgecancinof@gmail.com"
+                }
+            ],
+            "description": "Laravel package para la integración de pagos con Flow (https://www.flow.cl)",
+            "homepage": "https://github.com/cokecancino/laravel-flow",
+            "keywords": [
+                "chile",
+                "flow",
+                "laravel",
+                "multicaja",
+                "pagos",
+                "servipag",
+                "transbank",
+                "webpay"
+            ],
+            "time": "2017-12-20T19:44:03+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -530,16 +578,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.26",
+            "version": "v5.5.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d7e6a7aab600c5cfae595ea22074ac3c536cbc28"
+                "reference": "b4fb6eeb227b7327b4ca7f92263b693ec9ac9875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d7e6a7aab600c5cfae595ea22074ac3c536cbc28",
-                "reference": "d7e6a7aab600c5cfae595ea22074ac3c536cbc28",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b4fb6eeb227b7327b4ca7f92263b693ec9ac9875",
+                "reference": "b4fb6eeb227b7327b4ca7f92263b693ec9ac9875",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +708,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-12-18T14:15:59+00:00"
+            "time": "2017-12-20T15:43:48+00:00"
         },
         {
             "name": "laravel/tinker",
